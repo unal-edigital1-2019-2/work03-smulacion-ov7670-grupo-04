@@ -81,8 +81,8 @@ module test_cam_TB;
 	reg [9:0]line_cnt=0;
 	reg [9:0]row_cnt=0;
 	
-	parameter TAM_LINE=320;	// es 160x2 debido a que son dos pixeles de RGB
-	parameter TAM_ROW=120;
+	parameter TAM_LINE=320;	// (320) es 160x2 debido a que son dos pixeles de RGB
+	parameter TAM_ROW=120;  // 120
 	parameter BLACK_TAM_LINE=4;
 	parameter BLACK_TAM_ROW=4;
 	
@@ -147,7 +147,7 @@ module test_cam_TB;
 
 	/* log para cargar de archivo*/
 	integer f;
-	initial begin
+	initial begin 
       f = $fopen("test_vga.txt","w");
    end
 	
@@ -156,8 +156,10 @@ module test_cam_TB;
 	
 	/* ecsritura de log para cargar se cargados en https://ericeastwood.com/lab/vga-simulator/*/
 	initial forever begin
-	@(posedge clk_w)
+	@(posedge clk_w) begin
 		$fwrite(f,"%0t ps: %b %b %b %b %b\n",$time,VGA_Hsync_n, VGA_Vsync_n, VGA_R[3:1],VGA_G[3:1],VGA_B[3:2]);
+	
+	end 
 	end
 	
 endmodule

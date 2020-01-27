@@ -49,7 +49,7 @@ module test_cam(
 parameter CAM_SCREEN_X = 160;
 parameter CAM_SCREEN_Y = 120;
 
-localparam AW = 15; // LOG2(CAM_SCREEN_X*CAM_SCREEN_Y)
+localparam AW = 17; // LOG2(CAM_SCREEN_X*CAM_SCREEN_Y)
 localparam DW = 8;
 
 // El color es RGB 332
@@ -159,7 +159,7 @@ always @ (VGA_posX, VGA_posY) begin
 		if ((VGA_posX>CAM_SCREEN_X-1) || (VGA_posY>CAM_SCREEN_Y-1))
 			DP_RAM_addr_out=15'b111111111111111;
 		else
-			DP_RAM_addr_out=VGA_posX+VGA_posY*CAM_SCREEN_Y;
+			DP_RAM_addr_out=VGA_posX+VGA_posY*CAM_SCREEN_X;
 end
 
 

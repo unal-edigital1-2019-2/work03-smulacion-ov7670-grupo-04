@@ -1,0 +1,33 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/david/Escritorio/digital/github/Proyecto/work03-smulacion-ov7670-grupo-04/hw/test_cam_TB_isim_beh.exe -prj /home/david/Escritorio/digital/github/Proyecto/work03-smulacion-ov7670-grupo-04/hw/test_cam_TB_beh.prj work.test_cam_TB work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/david/Escritorio/digital/github/Proyecto/work03-smulacion-ov7670-grupo-04/hw/src/VGA_driver.v" into library work
+Analyzing Verilog file "/home/david/Escritorio/digital/github/Proyecto/work03-smulacion-ov7670-grupo-04/hw/src/PLL/clk24_25_nexys4.v" into library work
+Analyzing Verilog file "/home/david/Escritorio/digital/github/Proyecto/work03-smulacion-ov7670-grupo-04/hw/src/cam_read.v" into library work
+Analyzing Verilog file "/home/david/Escritorio/digital/github/Proyecto/work03-smulacion-ov7670-grupo-04/hw/src/buffer_ram_dp.v" into library work
+Analyzing Verilog file "/home/david/Escritorio/digital/github/Proyecto/work03-smulacion-ov7670-grupo-04/hw/src/test_cam.v" into library work
+Analyzing Verilog file "/home/david/Escritorio/digital/github/Proyecto/work03-smulacion-ov7670-grupo-04/hw/src/test_cam_TB.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "/home/david/Escritorio/digital/github/Proyecto/work03-smulacion-ov7670-grupo-04/hw/src/test_cam.v" Line 109: Port LOCKED is not connected to this instance
+Completed static elaboration
+Fuse Memory Usage: 89948 KB
+Fuse CPU Usage: 1360 ms
+Compiling module BUFG
+Compiling module MMCME2_ADV(CLKOUT1_DIVIDE=50,CLK...
+Compiling module clk24_25_nexys4
+Compiling module buffer_ram_dp(AW=17,DW=8)
+Compiling module VGA_Driver640x480_default
+Compiling module cam_read(AW=17)
+Compiling module test_cam
+Compiling module test_cam_TB
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 2 sub-compilation(s) to finish...
+Compiled 9 Verilog Units
+Built simulation executable /home/david/Escritorio/digital/github/Proyecto/work03-smulacion-ov7670-grupo-04/hw/test_cam_TB_isim_beh.exe
+Fuse Memory Usage: 662708 KB
+Fuse CPU Usage: 1680 ms
+GCC CPU Usage: 9230 ms
