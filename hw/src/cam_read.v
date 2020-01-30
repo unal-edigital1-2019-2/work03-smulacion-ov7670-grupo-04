@@ -72,7 +72,7 @@ if (fb==0 && href==1)
 begin
 f_data_in565<=px_data;
 fb<=fb+1;
-px_wr<=1; //activa la señal de permiso de escritura
+
 end
 //Guardamos el 2do byte y lo contatenamos para tener el registro 
 //del pixel en formato RGB 565.
@@ -82,7 +82,7 @@ if (fb==1 && href==1)
 begin
 s_data_in565 = {f_data_in565,px_data};
 mem_px_data = {s_data_in565 [14:12],s_data_in565 [9:7], s_data_in565 [4:3]};
-fb=0;
+fb<=0;
 
 end
 end
@@ -94,6 +94,7 @@ end
 always @ (negedge pclk)begin
 if (href==1)begin
 d=d+1;
+px_wr<=1; //activa la señal de permiso de escritura
 end
 // Cuando la camara envia la señal Vsync 
 //la direccion de escritura es el pixel cero
@@ -104,7 +105,7 @@ end
 if (href==1 && d==2 )begin
 mem_px_addr<=mem_px_addr+1;
 d=0;
-px_wr=0; //desactiva la señal de permiso de escritura
+px_wr<=0; //desactiva la señal de permiso de escritura
 end
 end
 

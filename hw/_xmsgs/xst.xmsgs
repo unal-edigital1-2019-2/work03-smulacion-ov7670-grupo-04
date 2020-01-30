@@ -65,78 +65,39 @@
 <msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/david/Escritorio/digital/github/Proyecto/work03-smulacion-ov7670-grupo-04/hw/src/test_cam.v" Line 162: Result of <arg fmt="%d" index="1">18</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">17</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/david/Escritorio/digital/github/Proyecto/work03-smulacion-ov7670-grupo-04/hw/src/cam_read.v" Line 49: Result of <arg fmt="%d" index="1">18</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">17</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/david/Escritorio/digital/github/Proyecto/work03-smulacion-ov7670-grupo-04/hw/src/cam_read.v" Line 74: Result of <arg fmt="%d" index="1">2</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/david/Escritorio/digital/github/Proyecto/work03-smulacion-ov7670-grupo-04/hw/src/test_cam.v</arg>&quot; line <arg fmt="%s" index="2">110</arg>: Output port &lt;<arg fmt="%s" index="3">LOCKED</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">clk25_24</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/david/Escritorio/digital/github/Proyecto/work03-smulacion-ov7670-grupo-04/hw/src/cam_read.v" Line 96: Result of <arg fmt="%d" index="1">3</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
 </msg>
 
-<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">px_data</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/david/Escritorio/digital/github/Proyecto/work03-smulacion-ov7670-grupo-04/hw/src/cam_read.v" Line 106: Result of <arg fmt="%d" index="1">18</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">17</arg>-bit target.
 </msg>
 
-<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">rst</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/david/Escritorio/digital/github/Proyecto/work03-smulacion-ov7670-grupo-04/hw/src/test_cam.v</arg>&quot; line <arg fmt="%s" index="2">110</arg>: Output port &lt;<arg fmt="%s" index="3">LOCKED</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">clk25_24</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">vsync</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">rst</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
-<msg type="warning" file="Xst" num="2935" delta="old" >Signal &apos;<arg fmt="%s" index="1">mem_px_data</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">cam_read</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">11111111</arg>).
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">f_data_in565_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ov7076_565_to_332</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2935" delta="old" >Signal &apos;<arg fmt="%s" index="1">px_wr</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">cam_read</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">1</arg>).
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">f_data_in565_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ov7076_565_to_332</arg>&gt;.
 </msg>
 
-<msg type="info" file="Xst" num="3226" delta="old" >The RAM &lt;<arg fmt="%s" index="1">Mram_ram</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
-
-<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">inst_LPM_FF</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">test_cam</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">f_data_in565_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ov7076_565_to_332</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DP_RAM/Mram_ram4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">test_cam</arg>&gt;.
+<msg type="info" file="Xst" num="3226" delta="new" >The RAM &lt;<arg fmt="%s" index="1">Mram_ram</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">f_data_in565_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cam_read</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DP_RAM/Mram_ram41</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">test_cam</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">f_data_in565_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cam_read</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DP_RAM/Mram_ram2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">test_cam</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DP_RAM/Mram_ram21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">test_cam</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DP_RAM/Mram_ram6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">test_cam</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DP_RAM/Mram_ram61</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">test_cam</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DP_RAM/Mram_ram8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">test_cam</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DP_RAM/Mram_ram81</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">test_cam</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DP_RAM/Mram_ram10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">test_cam</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DP_RAM/Mram_ram101</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">test_cam</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DP_RAM/Mram_ram14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">test_cam</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DP_RAM/Mram_ram141</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">test_cam</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DP_RAM/Mram_ram12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">test_cam</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DP_RAM/Mram_ram121</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">test_cam</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DP_RAM/Mram_ram16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">test_cam</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DP_RAM/Mram_ram161</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">test_cam</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">f_data_in565_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cam_read</arg>&gt;.
 </msg>
 
 </messages>

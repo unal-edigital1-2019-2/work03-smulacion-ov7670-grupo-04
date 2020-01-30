@@ -14,7 +14,7 @@ Starting static elaboration
 WARNING:HDLCompiler:1016 - "/home/david/Escritorio/digital/github/Proyecto/work03-smulacion-ov7670-grupo-04/hw/src/test_cam.v" Line 109: Port LOCKED is not connected to this instance
 Completed static elaboration
 Fuse Memory Usage: 89948 KB
-Fuse CPU Usage: 1360 ms
+Fuse CPU Usage: 1320 ms
 Compiling module BUFG
 Compiling module MMCME2_ADV(CLKOUT1_DIVIDE=50,CLK...
 Compiling module clk24_25_nexys4
@@ -25,9 +25,9 @@ Compiling module test_cam
 Compiling module test_cam_TB
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-Waiting for 2 sub-compilation(s) to finish...
+Waiting for 1 sub-compilation(s) to finish...
 Compiled 9 Verilog Units
 Built simulation executable /home/david/Escritorio/digital/github/Proyecto/work03-smulacion-ov7670-grupo-04/hw/test_cam_TB_isim_beh.exe
 Fuse Memory Usage: 662708 KB
-Fuse CPU Usage: 1680 ms
-GCC CPU Usage: 9230 ms
+Fuse CPU Usage: 1650 ms
+GCC CPU Usage: 9400 ms

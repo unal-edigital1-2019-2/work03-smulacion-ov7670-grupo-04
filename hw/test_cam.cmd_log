@@ -1,2 +1,7 @@
 xst -intstyle ise -ifn "/home/david/Escritorio/digital/github/Proyecto/work03-smulacion-ov7670-grupo-04/hw/test_cam.xst" -ofn "/home/david/Escritorio/digital/github/Proyecto/work03-smulacion-ov7670-grupo-04/hw/test_cam.syr" 
 xst -intstyle ise -ifn "/home/david/Escritorio/digital/github/Proyecto/work03-smulacion-ov7670-grupo-04/hw/test_cam.xst" -ofn "/home/david/Escritorio/digital/github/Proyecto/work03-smulacion-ov7670-grupo-04/hw/test_cam.syr" 
+xst -intstyle ise -ifn "/home/david/Escritorio/digital/github/Proyecto/work03-smulacion-ov7670-grupo-04/hw/test_cam.xst" -ofn "/home/david/Escritorio/digital/github/Proyecto/work03-smulacion-ov7670-grupo-04/hw/test_cam.syr" 
+xst -intstyle ise -ifn "/home/david/Escritorio/digital/github/Proyecto/work03-smulacion-ov7670-grupo-04/hw/test_cam.xst" -ofn "/home/david/Escritorio/digital/github/Proyecto/work03-smulacion-ov7670-grupo-04/hw/test_cam.syr" 
+xst -intstyle ise -ifn "/home/david/Escritorio/digital/github/Proyecto/work03-smulacion-ov7670-grupo-04/hw/test_cam.xst" -ofn "/home/david/Escritorio/digital/github/Proyecto/work03-smulacion-ov7670-grupo-04/hw/test_cam.syr" 
+xst -intstyle ise -ifn "/home/david/Escritorio/digital/github/Proyecto/work03-smulacion-ov7670-grupo-04/hw/test_cam.xst" -ofn "/home/david/Escritorio/digital/github/Proyecto/work03-smulacion-ov7670-grupo-04/hw/test_cam.syr" 
+xst -intstyle ise -ifn "/home/david/Escritorio/digital/github/Proyecto/work03-smulacion-ov7670-grupo-04/hw/test_cam.xst" -ofn "/home/david/Escritorio/digital/github/Proyecto/work03-smulacion-ov7670-grupo-04/hw/test_cam.syr" 

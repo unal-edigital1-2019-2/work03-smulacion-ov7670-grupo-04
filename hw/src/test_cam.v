@@ -46,8 +46,8 @@ module test_cam(
 );
 
 // TAMAÑO DE ADQUISICIÓN DE LA CAMARA 
-parameter CAM_SCREEN_X = 160;
-parameter CAM_SCREEN_Y = 120;
+parameter CAM_SCREEN_X = 160; //160
+parameter CAM_SCREEN_Y = 120; //120
 
 localparam AW = 17; // LOG2(CAM_SCREEN_X*CAM_SCREEN_Y)
 localparam DW = 8;
