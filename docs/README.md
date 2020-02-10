@@ -1,1 +1,8 @@
-## Aquí se debe  documentar todo el proceso del proyecto acorde a cada paquete de trabajo 
+##  ELECTRÓNICA DIGITAL 1 2019 -2 UNIVERSIDAD NACIONAL DE COLOMBIA 
+## TRABAJO 03- SIMULACION
+
+## Integrantes
+
+1. David Ricardo Lugo Venegas 1075872618
+
+## Introducción 
