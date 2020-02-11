@@ -17,7 +17,7 @@ Teniendo presente los siguientes archivos:
 1. Teniendo en cuenta el siguientes diagrama
 
 Insertar “diagrama 1”
-![Figdiagrama 1](https://github.com/unal-edigital1-2019-2/work03-smulacion-ov7670-grupo-04/blob/master/docs/figs/diagrama 1.png)
+![diagrama 1](https://github.com/unal-edigital1-2019-2/work03-smulacion-ov7670-grupo-04/blob/master/docs/figs/diagrama%201.png)
 
 Podemos observar que el bloque “test_cam_TB” consta de tres partes en general. 
 
