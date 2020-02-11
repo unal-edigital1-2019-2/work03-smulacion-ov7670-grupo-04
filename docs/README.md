@@ -16,7 +16,7 @@ Teniendo presente los siguientes archivos:
 
 1. Teniendo en cuenta el siguientes diagrama
 
-Insertar “diagrama 1”
+
 ![diagrama 1](https://github.com/unal-edigital1-2019-2/work03-smulacion-ov7670-grupo-04/blob/master/docs/figs/diagrama%201.png)
 
 Podemos observar que el bloque “test_cam_TB” consta de tres partes en general. 
@@ -37,16 +37,17 @@ Todos estos segmentos nos permiten simulaar las señales enviadas por la camara 
 
 El resultado de la pagina web es:
 
-insertar “Prueba 1”
+![Prueba 1](https://github.com/unal-edigital1-2019-2/work03-smulacion-ov7670-grupo-04/blob/master/docs/figs/Prueba%201.png)
 
 5. Ahora agregamos en el fichero  “cam_read” la sección de “adquisición de datos” que se realizo en el WP02, el cual recibe los datos de la cámara y los guarda en la ram proceso que se describe en el siguiente diagrama:
 
-Insertar “diagrama 2”
 
+![diagrama 2](https://github.com/unal-edigital1-2019-2/work03-smulacion-ov7670-grupo-04/blob/master/docs/figs/diagrama%202.png)
 
 6. Ejecutamos la simulación y realizamos los pasos 3 y 4, obteniendo el siguiente resultado de la pagina web
 
-Insertar “Prueba 2”.
+
+![Prueba 2](https://github.com/unal-edigital1-2019-2/work03-smulacion-ov7670-grupo-04/blob/master/docs/figs/prueba%202.png)
 
 Así, damos por finalizado nuestro paquete de trabajo 3, teniendo presente que aunque hemos variado los valores de la pantalla en todas las direcciones necesarias el archivo dio resultados satisfactorios cuando utilizamos una resolución de 160*120.
 
